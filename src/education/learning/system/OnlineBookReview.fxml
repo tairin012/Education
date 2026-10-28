@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane id="AnchorPane" prefHeight="562.0" prefWidth="656.0" style="-fx-background-color: #ccffcc;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="education.learning.system.OnlineBookReviewController">
+   <children>
+      <Label layoutX="215.0" layoutY="14.0" prefHeight="35.0" prefWidth="225.0" text="Online Book Review " textFill="#7e62e4">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="75.0" layoutY="522.0" mnemonicParsing="false" onAction="#backBtn" style="-fx-background-color: #14EF10; -fx-background-radius: 5;" text="Back" />
+      <Button layoutX="511.0" layoutY="522.0" mnemonicParsing="false" onAction="#exitBtn" style="-fx-background-color: #FF0000; -fx-background-radius: 5;" text="Exit" />
+      <WebView fx:id="webView" layoutX="7.0" layoutY="53.0" prefHeight="463.0" prefWidth="643.0" />
+   </children>
+</AnchorPane>

@@ -1,6 +1,6 @@
 # Bookshop & Education Learning System
 
-A desktop application built with **Java** and **JavaFX** featuring user and administrator management for an online bookshop and educational learning portal.
+A desktop application built with **Java** and **JavaFX** featuring user and administrator management for an online bookshop.
 
 ## 📖 Features
 
